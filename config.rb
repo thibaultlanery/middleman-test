@@ -32,7 +32,7 @@ activate :autoprefixer
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
 data.flats.each do |member, flat_data|
-  proxy "/flats/#{member}.html", "/flats/show.html", locals: { owner: member, flat: flat_data }
+  proxy "/flats/#{member}.html", "/flats/show.html", locals: { owner: member, flat: flat_data }, ignore: true
 end
 
 ###
