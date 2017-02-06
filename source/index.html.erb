@@ -1,7 +1,7 @@
 ---
 title: Le Wagon Middleman boilerplate
 ---
-<div class="banner slideDown" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/bg.jpg');">
+<div class="banner slideDown" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(<%= image_path "bg.jpg" %>);">
   <div class="banner-content">
     <h1>WELCOME HOME</h1>
     <p>Rent unique places to stay from local hosts in 190+ countries.</p>
@@ -20,7 +20,7 @@ title: Le Wagon Middleman boilerplate
 <div class="container text-center padded features">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-3">
-      <%= image_tag "images/globe.png" %>
+      <%= image_tag "globe.png" %>
       <h2>Discover the world</h2>
       <p>The earth is your new home.</p>
     </div>
@@ -30,12 +30,12 @@ title: Le Wagon Middleman boilerplate
       <p>No cash issues anymore.</p>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-3">
-      <%= image_tag "images/beer.png" %>
+      <%= image_tag "beer.png" %>
       <h2>Meet people</h2>
       <p>Discover new culture and lifestyle.</p>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-3">
-      <%= image_tag "images/heart.png" %>
+      <%= image_tag "heart.png" %>
       <h2>Share and love</h2>
       <p>Join a community you will love.</p>
     </div>
