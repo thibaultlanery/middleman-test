@@ -1,0 +1,28 @@
+- icon: "facebook"
+  url: "http://facebook.com"
+- icon: "twitter"
+  url: "http://twitter.com"
+- icon: "youtube"
+  url: "http://youtube.com"
+- icon: "instagram"
+  url: "http://instagram.com"
+
+# data.social_links
+# [
+#   {
+#     icon: "facebook",
+#     url: "http://facebook.com"
+#   },
+#   {
+#     icon: "instagram",
+#     url: "http://instagram.com"
+#   },
+#   {
+#     icon: "twitter",
+#     url: "http://twitter.com"
+#   },
+#   {
+#     icon: "youtube",
+#     url: "http://youtube.com"
+#   }
+# ]

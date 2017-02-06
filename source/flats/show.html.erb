@@ -1,0 +1,38 @@
+
+<div class="container">
+  <%= image_tag "#{owner}.jpg", class: "card-user avatar avatar-large" %>
+  <h1>
+    <%= flat.title %>
+    <small><%= flat.city %></small>
+  </h1>
+
+  <span class="label label-primary">
+    <%= flat.property_type %>
+  </span>
+
+  <p>
+    <% flat.rating.times do %>
+      <i class="fa fa-star"></i>
+    <% end %>
+    <% (5 - flat.rating).times do %>
+      <i class="fa fa-star-o"></i>
+    <% end %>
+  </p>
+
+  <div class="text-muted">
+    <%= flat.description %>
+  </div>
+
+  <div class="row">
+    <% if flat.wifi %>
+      <div class="col-xs-3">
+        <i class="fa fa-wifi"></i> Wifi
+      </div>
+    <% end %>
+    <% if flat.pets %>
+      <div class="col-xs-3">
+        <i class="fa fa-paw"></i> Pets allowed
+      </div>
+    <% end %>
+  </div>
+</div>

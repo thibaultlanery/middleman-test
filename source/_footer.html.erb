@@ -1,0 +1,20 @@
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4">
+        <ul class="list-inline">
+          <% data.social_links.each do |social_link| %>
+            <li>
+              <% link_to social_link[:url] do %>
+                <i class="fa fa-<%= social_link[:icon] %>"></i>
+              <% end %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+      <div class="col-xs-8 text-right">
+        <p>This is a Airbnb Home challenge @ LeWagon</p>
+      </div>
+    </div>
+  </div>
+</div>

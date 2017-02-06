@@ -1,0 +1,30 @@
+seb:
+  city: "Paris"
+  title: "Seb's home"
+  description: "Charming room with patio"
+  background: "card-paris"
+  beds: 2
+  wifi: true
+  pets: false
+  rating: 2
+  property_type: "Appartment"
+anne:
+  city: "Brussels"
+  title: "Anne's home"
+  description: "Lovely house"
+  background: "card-brussels"
+  beds: 3
+  wifi: false
+  pets: true
+  rating: 4
+  property_type: "House"
+romain:
+  city: "London"
+  title: "Romain's rooftop"
+  description: "Huge flat with view"
+  background: "card-london"
+  beds: 5
+  wifi: true
+  pets: false
+  rating: 5
+  property_type: "Rooftop"
